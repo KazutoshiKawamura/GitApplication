@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var n = 0
+    var number = 0
     @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
@@ -23,9 +23,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func p() {
-        n++
-        label.text = String(n)
+    @IBAction func plus() {
+        number = number + 1
+        label.text = String(number)
+    }
+    
+    @IBAction func minus() {
+        number = number - 1
+        label.text = String(number)
     }
 
 }
