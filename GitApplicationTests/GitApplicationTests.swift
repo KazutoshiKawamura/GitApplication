@@ -2,8 +2,13 @@
 //  GitApplicationTests.swift
 //  GitApplicationTests
 //
+<<<<<<< HEAD
 //  Created by kztskawamu on 2015/11/14.
 //  Copyright © 2015年 cazcawa. All rights reserved.
+=======
+//  Created by 橋詰明宗 on 2015/11/14.
+//  Copyright © 2015年 橋詰明宗. All rights reserved.
+>>>>>>> 4d07087314b0242b52d69dc279faaa64b13d65c9
 //
 
 import XCTest
